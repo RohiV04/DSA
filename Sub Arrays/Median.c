@@ -36,9 +36,9 @@ int main()
             j++; 
     }
     if(len&1){
-        printf("%d",merge[len/2]);
+        printf("%d \n",merge[len/2]);
     }else{
-         printf("%d",merge[len/2]+merge[(len/2)+1]);
+         printf("%d \n",merge[len/2]+merge[(len/2)+1]);
     }
 
 return 0;
